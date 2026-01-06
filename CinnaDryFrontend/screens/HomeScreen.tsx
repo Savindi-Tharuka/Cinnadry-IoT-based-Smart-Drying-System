@@ -14,7 +14,7 @@ import { MaterialIcons } from '@expo/vector-icons';
 import ResultCard from '../components/ResultCard';
 import { ApiResponse } from '../types/api';
 
-const BACKEND_URL = 'http://192.168.x.x:5000/upload_image'; // ← CHANGE to your backend IP:port
+const BACKEND_URL = 'http://172.20.10.2:5000/upload_image'; // ← CHANGE to your backend IP:port
 
 export default function HomeScreen() {
   const [imageUri, setImageUri] = useState<string | null>(null);
